@@ -17,7 +17,7 @@ $(document).ready(function() {
                 // Xử lý dữ liệu sản phẩm và cập nhật giao diện
                 for (var i = 0; i < response.products.length; i++) {
                     var product = response.products[i];
-                    var productItem = '<div class="product">' + product.name_type + '</div>';
+                    var productItem = '<div class="product">' + product.name_type + '</div>'; //name_type là giá trị cần hiển thị ra (name money etc)
                     productList.append(productItem);
                 }
 
